@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class PermuteArr {
+    // Time Complexity: O(n!)
+    // Space Complexity: O(n!)
     public void applyPermutation(List<Integer> perm, List<Integer> A){
         for(int i=0; i<A.size(); ++i){
             // Eğer perm.get(i) negatif değilse i indisinin  konumunu takip et
